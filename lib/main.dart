@@ -28,6 +28,7 @@ class MyApp extends StatelessWidget {
           theme: kutu.get('dark_Theme', defaultValue: false)
               ? ThemeData.dark()
               : ThemeData.light(),
+          // theme: ThemeData(textTheme: GoogleFonts.abelTextTheme),=>> Uygulamanın her yerinde yazı teması değişir....
           home: EntryPage(),
         );
       },
